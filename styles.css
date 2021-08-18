@@ -1,5 +1,4 @@
 html {
-  height: 100%;
   box-sizing: border-box;
 }
 
@@ -77,6 +76,11 @@ p {
   padding: 11px 20px;
 }
 
+.button:hover {
+  background-color: rgb(196, 228, 17);
+  transition-duration: 1s;
+}
+
 .cards {
   align-content: center;
   display: flex;
@@ -119,6 +123,26 @@ p {
 }
 
 .cards i {
-  font-size: 100px;
+  font-size: 80px;
 }
 
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.tbox {
+  border: solid 2px white;
+  box-sizing: border-box;
+  margin-top: 30px;
+  padding: 50px;
+  text-align: justify;
+  width: 47%;
+}
+
+.tbox p:last-of-type {
+  font-size: 0.9rem;
+  padding: 20px;
+}
